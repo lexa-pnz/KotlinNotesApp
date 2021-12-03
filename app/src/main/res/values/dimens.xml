@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_elevation">10dp</dimen>
+    <dimen name="card_corner_radius">10dp</dimen>
+    <dimen name="app_large_text">25sp</dimen>
+    <dimen name="app_margin">16dp</dimen>
+    <dimen name="app_normal_text">20sp</dimen>
+    <dimen name="btn_width">300dp</dimen>
+    <dimen name="btns_start_menu_radius">50dp</dimen>
+    <dimen name="btns_start_menu_padding">20dp</dimen>
+</resources>

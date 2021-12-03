@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".screens.editNote.EditNoteFragment"
+    app:cardElevation="@dimen/card_elevation"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    android:layout_margin="@dimen/app_margin">
+
+
+    <EditText
+        android:id="@+id/note_name_edit"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/app_margin"
+        android:gravity="center"
+        android:lines="1"
+        android:text="Заголовок"
+        android:textColor="@color/design_default_color_primary_dark"
+
+        android:textSize="@dimen/app_large_text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Name note" />
+
+    <EditText
+        android:id="@+id/note_text_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/app_margin"
+
+        android:text="Тело"
+        android:textColor="@color/design_default_color_primary"
+
+        android:textSize="@dimen/app_normal_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@id/note_name_edit"
+        tools:text="Note text" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
